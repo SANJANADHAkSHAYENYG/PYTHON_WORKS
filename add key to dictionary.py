@@ -1,4 +1,4 @@
 #create elements with dictionary
-x={"name":"github","age":89,"location":"google"}
-x["tile"]="python project"
-print(x)
+my_dict = {'key1': 'value1', 'key2': 'value2'}
+my_dict.update({'new_key': 'new_value'})
+print(my_dict)
